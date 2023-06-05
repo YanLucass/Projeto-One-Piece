@@ -1,0 +1,96 @@
+body {
+  background-color: var(--cor1);
+}
+
+main {
+  position: absolute;
+  margin-top: 5%;
+  width: 80%;
+  min-height: 600px;
+  margin-bottom: 3%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: #FFFFFF;
+  box-shadow: 0px 0px 48px rgba(0, 0, 0, 0.6);
+  border-radius: 30px;
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+  padding-top: 40px;
+  color: var(--cor1);
+}
+
+.centralizaR {
+  text-align: center;
+  
+}
+.centralizaR a{
+  padding: 10%;
+  color: black;
+  font-size: 1.7em;
+}
+
+
+.retangulo {
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: 7%;
+  width: 20%;
+  padding-bottom: 20%;
+  border: 7px solid var(--cor1);
+  border-radius: 10px;
+  background-color: red;
+}
+
+.retangulo1 {
+  background: url('../Images/luffyfoto.png') center / cover no-repeat;
+}
+
+.retangulo2 {
+  background: url('../Images/zorofoto.png') center / cover no-repeat;
+}
+
+.retangulo3 {
+  background: url('../Images/sanjifoto.png') center / cover no-repeat;
+}
+
+.retangulo4 {
+  background: url('../Images/wano.png') center / cover no-repeat;
+}
+
+.retangulo5 {
+  background: url('../Images/desrossa.png') center / cover no-repeat;
+}
+.retangulo6 {
+  background: url('../Images/marineford.png') center / cover no-repeat;
+}
+
+.luffyhome {
+  width: 20%;
+  position: fixed;
+  right: 0%;
+  top: 62%;
+}
+
+@media screen and (max-width: 768px) {
+  /* Estilos para telas menores */
+  main {
+    padding: 5%;
+    margin-top: 20%;
+  }
+  
+  .centralizaR {
+    text-align: center;
+  }
+  
+  .retangulo {
+    margin: 5%;
+    width: 40%;
+    padding-bottom: 40%;
+  }
+  
+ 
+}
