@@ -22,7 +22,7 @@ const Home = () => {
               <Link to="/personagens/sanji">Sanji</Link>
             </div>
           </div>
-          <h1>SAIBA MAIS SOBRE OS ARCOS DE ONE PIECE</h1>
+          <h1>SAIBA MAIS SOBRE OS ARCOS DE ONE PIECE!</h1>
           <div className="centralizaR">
             <div className="retangulo retangulo4"></div>
             <div className="retangulo retangulo5"></div>
