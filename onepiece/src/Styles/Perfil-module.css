@@ -19,6 +19,9 @@
     opacity: 0.5;
   }
   
+.fbranco {
+  background-color: aliceblue;
+}
   .profile-container {
     position: absolute;
     top: 100px;

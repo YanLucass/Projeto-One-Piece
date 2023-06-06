@@ -18,8 +18,8 @@ const Home = () => {
             <div className="retangulo retangulo3"></div>
             <div className="centralizaR">
               <Link to="/luffy">Luffy</Link>
-              <Link to="/personagens/zoro">Zoro</Link>
-              <Link to="/personagens/sanji">Sanji</Link>
+              <Link to="/zoro">Zoro</Link>
+              <Link to="/sanji">Sanji</Link>
             </div>
           </div>
           <h1>SAIBA MAIS SOBRE OS ARCOS DE ONE PIECE!</h1>

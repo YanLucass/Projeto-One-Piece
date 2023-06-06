@@ -15,6 +15,8 @@ import Personagens from './routes/Personagens';
 import Arcos from './routes/Arcos';
 import Luffy from './routes/Luffy';
 import Perfil from './routes/Perfil.jsx';
+import Zoro from './routes/Zoro.jsx'
+import Sanji from './routes/Sanji.jsx';
 
 const router = createBrowserRouter([
   
@@ -51,6 +53,16 @@ const router = createBrowserRouter([
       element: <Perfil/>,
     },
    
+    {
+      path: '/zoro',
+      element: <Zoro/>,
+    },
+
+    {
+      path: '/sanji',
+      element: <Sanji/>,
+    },
+    
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

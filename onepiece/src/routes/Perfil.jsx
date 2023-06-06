@@ -3,7 +3,7 @@ import styles from '../Styles/Perfil-module.css';
 
 const UserProfile = () => {
   return (
-    <div className="pagina-branca">
+    <div className="fbranco">
       <div className="header">
         <img src="background-image.jpg" alt="Background" className="background-image" />
         <div className="red-overlay"></div>
