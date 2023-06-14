@@ -1,73 +1,72 @@
 body {
-    background-color: rgba(63, 19, 21, 1);
-  }
+  background-color: rgba(63, 19, 21, 1);
+}
+
+#fundo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   
-  #fundo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-  
+}
+
+#conteudo {
+  background-color: rgba(217, 217, 217, 1);
+  font-size: 30px;
+  margin-top: 10%;
+  padding: 20px;
+  width: 70%;
+  max-width: 800px;
+  height: auto;
+  text-align: justify;
+  border-radius: 15px;
+  line-height: 37px;
+}
+
+#recompensa {
+  color: rgba(120, 25, 30, 1);
+  font-size: larger;
+}
+
+#nome {
+  color: rgba(120, 25, 30, 1);
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#imagem {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
   #conteudo {
-    background-color: rgba(217, 217, 217, 1);
-    font-size: 30px;
-    margin-top: 10%;
-    padding: 20px;
-    width: 70%;
-    max-width: 800px;
-    height: auto;
-    text-align: justify;
-    border-radius: 15px;
-    line-height: 37px;
+    width: 90%;
+    font-size: 24px;
   }
-  
-  #recompensa {
-    color: rgba(120, 25, 30, 1);
-    font-size: larger;
-  }
-  
-  #nome {
-    color: rgba(120, 25, 30, 1);
-    font-size: 40px;
-    text-align: center;
-    margin-top: 20px;
-  }
-  
+
   #imagem {
-    width: 100%;
-    max-width: 400px;
-    margin: 20px auto;
-    display: block;
+    max-width: 300px;
   }
-  
-  @media (max-width: 768px) {
-    #conteudo {
-      width: 90%;
-      font-size: 24px;
-    }
-  
-    #imagem {
-      max-width: 300px;
-    }
-  
-    #nome {
-      font-size: 30px;
-    }
+
+  #nome {
+    font-size: 30px;
   }
-  
-  @media (max-width: 480px) {
-    #conteudo {
-      font-size: 20px;
-      padding: 10px;
-    }
-  
-    #imagem {
-      max-width: 200px;
-    }
-  
-    #nome {
-      font-size: 24px;
-    }
+}
+
+@media (max-width: 480px) {
+  #conteudo {
+    font-size: 20px;
+    padding: 10px;
   }
-  
+
+  #imagem {
+    max-width: 200px;
+  }
+
+  #nome {
+    font-size: 24px;
+  }
+}

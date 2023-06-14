@@ -1,7 +1,6 @@
-import React from 'react';
 import Nav from './Nav';
 import { Link} from 'react-router-dom';
-import styles from '../Styles/Home-module.css';
+    
 function Personagens() {
     return (
         <div>
@@ -15,7 +14,7 @@ function Personagens() {
                         <div className="retangulo retangulo3"></div>
                         <div className="centralizaR">
                         <Link to="/Luffy">Luffy</Link>
-                        <Link to="/personagens/zoro" className="teste">Zoro</Link>
+                        <Link to="/Zoro" className="teste">Zoro</Link>
                         <Link to="/personagens/sanji">Sanji</Link>
                         </div>
                 </div>

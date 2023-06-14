@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styles from '../styles/CommentBarCss.css';
-import submit from '../images/submit.png';
+import submit from '../Images/Pefil';
 import perfil from '../images/perfil.png';
 import deleteIcon from '../images/apagar.png';
 
@@ -44,7 +44,7 @@ function CommentBar({ addComment }) {
             value={comment}
             onChange={handleCommentChange}
             onKeyPress={handleKeyPress}
-            placeholder="Dê sua opinião ao arco!"
+            placeholder="Dx'ê sua opinião ao arco!"
             id='caixa'
           />
           <img

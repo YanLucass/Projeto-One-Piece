@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../Styles/Historias-module.css";
+import styles from '../Styles/Historias-module.css'
 import Zoro_Conteudo from '../Images/Zoro_Conteudo.png';
 import Nav from "./Nav";
 

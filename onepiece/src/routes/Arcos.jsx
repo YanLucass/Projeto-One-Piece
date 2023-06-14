@@ -13,9 +13,9 @@ function Arcos() {
                         <div className="retangulo retangulo5"></div>
                         <div className="retangulo retangulo6"></div>
                         <div className="centralizaR">
-                        <Link to="/personagens/luffy">Wano</Link>
-                        <Link to="/personagens/zoro" >Desrossa</Link>
-                        <Link to="/personagens/sanji">MarineFord</Link>
+                        <Link to="/Wano">Wano</Link>
+                        <Link to="/Desrossa" >Desrossa</Link>
+                        <Link to="/MarineFord">MarineFord</Link>
                         </div>
                 </div>
         </article>

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+
 import './index.css'
 
 //configuranto router
@@ -9,7 +9,6 @@ import { createBrowserRouter, RouterProvider} from "react-router-dom";
 
 import Home from './routes/Home';
 import Login from './routes/Login';
-import errorPage from './routes/errorPage';
 import Cadastro from  './routes/Cadastro'
 import Personagens from './routes/Personagens';
 import Arcos from './routes/Arcos';
@@ -17,6 +16,9 @@ import Luffy from './routes/Luffy';
 import Perfil from './routes/Perfil.jsx';
 import Zoro from './routes/Zoro.jsx'
 import Sanji from './routes/Sanji.jsx';
+import Wano from './routes/Wano.jsx';
+import Desrossa from './routes/Desrossa';
+import MarineFord from './routes/MarineFord';
 
 const router = createBrowserRouter([
   
@@ -61,6 +63,21 @@ const router = createBrowserRouter([
     {
       path: '/sanji',
       element: <Sanji/>,
+    },
+
+    {
+      path: '/Wano',
+      element: <Wano></Wano>,
+    },
+
+    {
+      path: '/Desrossa',
+      element: <Desrossa/>,
+    },
+
+    {
+      path: '/MarineFord',
+      element: <MarineFord/>,
     },
     
 ])

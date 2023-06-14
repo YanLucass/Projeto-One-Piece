@@ -1,5 +1,4 @@
-import React from 'react';
-import styles from '../Styles/Home-module.css';
+import styles from '../Styles/Home-module.css'
 import Nav from './Nav';
 import luffyhomee from '../Images/luffyhomee.png';
 import { Link } from 'react-router-dom';
@@ -27,9 +26,9 @@ const Home = () => {
             <div className="retangulo retangulo4"></div>
             <div className="retangulo retangulo5"></div>
             <div className="retangulo retangulo6"></div>
-            <Link to="/desrossa">Wano</Link>
-            <Link to="/personagens/luffy">Desrossa</Link>
-            <Link to="/personagens/luffy">MarineFord</Link>
+            <Link to="/Wano">Wano</Link>
+            <Link to="/Desrossa">Desrossa</Link>
+            <Link to="/MarineFord">MarineFord</Link>
           </div>
         </article>
       </main>
